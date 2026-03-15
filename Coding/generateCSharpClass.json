@@ -1,11 +1,11 @@
 json
 {
   "name": "Generate c# Code",
-  "description": "Generate a C# function with given specifications.",
+  "description": "Generate a C# class with given specifications.",
   "category": "code-generation",
   "tags": [ "c#", "class" ],
-  "template": "Write a Python function named `{class_name}` that {description}.\n\nRequirements:\n{requirements}\n\nOutput the code in a markdown code block with the filename as `{function_name}.py`.",
-  "parameters": [ "class_name", "description","requirements" ],
+  "template": "Write a C# class named `{class_name}` that {description}.\n\nRequirements:\n{requirements}\n\nOutput the code in a markdown code block with the filename as `{function_name}.py`.",
+  "parameters": [ "class_name", "description", "requirements" ],
   "defaults": {
     "requirements": "- Use file-scoped namespaces\n- Include XML documentation\n- Implement error handling\n- Follow .NET 10 best practices\n- Use modern C# features\n-Write clean, maintainable, and efficient code\n- nFor each file, output its content in a markdown code block with the filename as the language specifier."
   },
