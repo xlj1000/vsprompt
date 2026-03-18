@@ -3,7 +3,8 @@ json
   "name": "Generate c# Code",
   "description": "Generate a C# class with given specifications.",
   "category": "code-generation",
-  "tags": [ "c#", "class" ],
+  "tags": [ "class" ],
+  "language": "csharp","
   "template": "Write a C# class named `{class_name}` that {description}.\n\nRequirements:\n{requirements}\n\nOutput the code in a markdown code block with the filename as `{function_name}.py`.",
   "parameters": [ "class_name", "description", "requirements" ],
   "defaults": {
