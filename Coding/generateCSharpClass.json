@@ -3,7 +3,7 @@
   "description": "Generate a C# class with given specifications.",
   "category": "code-generation",
   "tags": [ "class" ],
-  "language": "csharp"
+  "language": "csharp",
   "template": "Write a C# class named `{class_name}` that {description}.\n\rRequirements:\n\r{requirements}\n\rOutput the code in a markdown code block with the filename as `{function_name}.py`.",
   "parameters": [ "class_name", "description", "requirements" ],
   "defaults": {
