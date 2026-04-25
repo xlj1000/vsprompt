@@ -4,7 +4,7 @@
   "category": "code-generation",
   "tags": [ "class" ],
   "language": "csharp",
-  "template": "Write a C# class named `{class_name}` that {description}.\n\rRequirements:\n{requirements}\n\r{csproj}\n\r\n\r{context}\n\r{nuget}\n\rOutput the code in a markdown code block with the filename as `{class_name}.cs`.",
+  "template": "Write a C# class named `{class_name}` that {description}.\n\rRequirements:\n{requirements}\n\r{csproj}\n\r\n\r{context}\n\r{nuget}\n\rOutput the code in a markdown code block with language specifier:filename e.g. ````CSharp:FileName\n\rCodeContent\n\r````.",
   "parameters": [ "class_name", "description", "requirements", "csproj", "context"],
   "defaults": {
     "requirements": "- Use file-scoped namespaces\n\r- Include XML documentation\n\r- Implement error handling\n- Follow .NET 10 best practices\n\r- Use modern C# features\n-Write clean, maintainable, and efficient code.",
