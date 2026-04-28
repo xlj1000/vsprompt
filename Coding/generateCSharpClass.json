@@ -1,5 +1,4 @@
 {
-  "name": "Generate c# Code",
   "description": "Generate a C# class with given specifications.",
   "category": "code-generation",
   "tags": [ "class" ],
