@@ -4,10 +4,11 @@
 	"tags": [ "script" ],
 	"language": "PowerShell",
 	"template": "Write a PowerShell script named `{file_name}` that {description}.\n\rRequirements:\n{requirements}}\n\rOutput the code in a markdown code block with language specifier:filename e.g. ````PowerShell:FileName\n\rCodeContent\n\r````.",
-	"parameters": [ "file_name", "description", "requirements" ],
+	"parameters": [ "file_name", "purpose", "requirements" ],
 	"defaults": {
-		"requirements": "Using modern PowerShell(ps 7+) features and best practices."
-		
+		"requirements": "Using modern PowerShell(ps 7+) features and best practices.",
+		"file_name": "save-screenshot.ps1",
+		"purpose": "Create a PowerShell script takes a single screenshot and saves it into a target folder (default is the user's screenshots folder)"
 	},
 	"version": "1.0.0"
 }
