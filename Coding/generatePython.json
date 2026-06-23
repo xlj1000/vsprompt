@@ -1,0 +1,14 @@
+{
+	"description": "Generate a python script with given specifications.",
+	"category": "code-generation",
+	"tags": [ "script" ],
+	"language": "Python",
+	"template": "Write a Python script named `{file_name}` that {purpose}.\n\rRequirements:\n{requirements}}\n\rOutput the code in a markdown code block with language specifier:filename e.g. ````Python:FileName\n\rCodeContent\n\r````.",
+	"parameters": [ "file_name", "purpose", "requirements" ],
+	"defaults": {
+		"requirements": "Using modern Python features and best practices.",
+		"file_name": "save-screenshot.py",
+		"purpose": "Create a Python script that takes a single screenshot and saves it into a target folder (default is the user's screenshots folder)"
+	},
+	"version": "1.0.0"
+}
