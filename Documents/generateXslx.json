@@ -1,0 +1,14 @@
+{
+	"description": "Generate a xlsx file with given specifications.",
+	"category": "document-generation",
+	"tags": [ "xslx spreadsheet" ],
+	"language": "xslx",
+	"template": "Write a xslx named `{file_name}` that {purpose}.\n\rRequirements:\n{requirements}}\n\rOutput: \"Provide a clean, downloadable {file_name}.xlsx file\n\r````.",
+	"parameters": [ "file_name", "purpose", "requirements" ],
+	"defaults": {
+		"requirements": "Using modern xslx features and best practices.",
+		"file_name": "save-screenshot.xlsx",
+		"purpose": "Objective: \"Create a monthly personal budget spreadsheet for 2026.\" Structure: \"Include columns for Date, Category, Description, Income, and Expenses.\" Formulas & Design: \"Add an automatic total row at the bottom, a summary card for net savings, and professional blue header styling.\" .\""
+	},
+	"version": "1.0.0"
+}
