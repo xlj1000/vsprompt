@@ -3,12 +3,12 @@
 	"category": "document-generation",
 	"tags": [ "html" ],
 	"language": "html",
-	"template": "Write a mhtml named `{file_name}` that {purpose}.\n\rRequirements:\n{requirements}}\n\r````.",
+	"template": "Write a mhtml named `{file_name}` that {purpose}.\n\rRequirements:\n{requirements}}\n\r.",
 	"parameters": [ "file_name", "purpose", "requirements" ],
 	"defaults": {
 		"requirements": "Using modern chromium browser client side js,svg and dhtml features and best practices.Output: \"Provide a clean, downloadable {file_name}.mhtml file\n\r",
-		"file_name": "cedar-dockpeojext.mhtml",
-		"purpose": "Objective: \"Build a in ground Attached 12X12 sqft cedar boards Deck.\" Structure: \"using 2x8 16 inch center joint spacing. \" Design: \"facial boards coverage.\" .\"Generates:list of materials with links and exastimate costs, design draws"
+		"file_name": "cedar-dock.mhtml",
+		"purpose": "Objective: \"Build a in ground Attached 12X12 sqft cedar boards Deck.\" \n\rStructure: \"using 2x8 16 inch center joint spacing.\"\n\r Design: \"facial boards coverage.\"\n\r\"Generates:list of materials with links and exastimate costs, design draws"
 	},
 	"version": "1.0.0"
 }
