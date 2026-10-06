@@ -1,0 +1,14 @@
+{
+	"description": "Generate a html app with given specifications.",
+	"category": "document-generation",
+	"tags": [ "project" ],
+	"language": "html",
+	"template": "Using modern chromium browser client side js, svg, css and html. Write a html app named `{topic}` that {{_inputs}}, Provide a clean, downloadable and chromium browser openable {topic}.mhtml file, as well as a zipped version.",
+	"parameters": [ "topic" ],
+	"defaults": {
+
+		"topic": ""
+
+	},
+	"version": "1.0.0"
+}

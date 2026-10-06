@@ -1,0 +1,13 @@
+{
+	"description": "Generate a xlsx file with given specifications.",
+	"category": "document-generation",
+	"tags": [ "xslx spreadsheet" ],
+	"language": "xslx",
+	"template": "Write a xslx named `{topic}` that {{_inputs}}\n\rOutput: \"Provide a clean, downloadable {topic}.xlsx file\n\r",
+	"parameters": [ "topic" ],
+	"defaults": {
+
+		"topic": ""
+	},
+	"version": "1.0.0"
+}

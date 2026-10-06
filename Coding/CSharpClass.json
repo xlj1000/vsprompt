@@ -1,6 +1,6 @@
 {
   "description": "Generate a C# class with given specifications.",
-  "category": "code-generation",
+  "category": "code-generation>Compiled",
   "tags": [ "class" ],
   "language": "csharp",
   "template": "Write a C# class named `{class_name}` that {description}.\n\rRequirements:\n{requirements}\n\r{csproj}\n\r\n\r{context}\n\r{nuget}\n\rOutput the code in a markdown code block with language specifier:filename e.g. ````CSharp:FileName\n\rCodeContent\n\r````.",

@@ -1,6 +1,6 @@
 {
 	"description": "Generate a bash script with given specifications.",
-	"category": "code-generation",
+	"category": "code-generation>Script",
 	"tags": [ "script" ],
 	"language": "Bash",
 	"template": "Write a bash script named `{file_name}` that {purpose}.\n\rRequirements:\n{requirements}}\n\rOutput the code in a markdown code block with language specifier:filename e.g. ````Bash:FileName\n\rCodeContent\n\r````.",

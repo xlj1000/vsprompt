@@ -1,6 +1,6 @@
 {
 	"description": "Generate a python script with given specifications.",
-	"category": "code-generation",
+	"category": "code-generation>Script",
 	"tags": [ "script" ],
 	"language": "Python",
 	"template": "Write a Python script named `{file_name}` that {purpose}.\n\rRequirements:\n{requirements}}\n\rOutput the code in a markdown code block with language specifier:filename e.g. ````Python:FileName\n\rCodeContent\n\r````.",
